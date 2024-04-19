@@ -14,11 +14,11 @@ public class Main {
 //        tarih.printTeacherInfo(); printTeacherInfo'yu addTeacher içinde çağırdıgımız için burdan kaldırdık.
 
         Student s1 = new Student("Şaban", "123", "4", tarih, fizik, biyo);
-        s1.addBulkExamNote(100,78,50);
+        s1.addBulkExamNote(69,18,73,25,80,50);
         s1.isPass();
 
         Student s2 = new Student("Necmi", "444", "4", tarih, fizik, biyo);
-        s2.addBulkExamNote(50, 30, 70);
-        s2.isPass();
+//        s2.addBulkExamNote(50, 30, 70);
+//        s2.isPass();
     }
 }

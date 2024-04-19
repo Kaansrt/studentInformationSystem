@@ -5,13 +5,15 @@ public class Course {
     String name;
     String code; //101
     String prefix; //TRH
-    int note;
+    double note;
+    double otherNote;
 
     Course(String name, String code, String prefix) {//Teacher a da değer atamak isteddiğim için parametre olarak kullanıyoruz.
         this.name = name;
         this.code = code;
         this.prefix = prefix;
-        int note = 0;
+        this.note = 0;
+        this.otherNote=0;
     }
 
     void addTeacher(Teacher teacher) {
